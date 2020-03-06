@@ -6,6 +6,7 @@ import { MediaItemComponent } from './media-item.component';
 import { MediaItemListComponent } from './media-item-list.component';
 import { FavoriteDirective } from './favorite.directive';
 import { CategoryListPipe } from './category-list.pipe';
+import { CategoryListComponent} from './category-list.component';
 import { lookupListToken, lookupLists } from './providers';
 import { MockXHRBackend } from './mock-xhr-backend';
 import { routing } from './app.routing';
@@ -20,6 +21,7 @@ import { routing } from './app.routing';
     AppComponent,
     MediaItemComponent,
     MediaItemListComponent,
+    CategoryListComponent,
     FavoriteDirective,
     CategoryListPipe
   ],

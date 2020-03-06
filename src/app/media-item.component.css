@@ -5,9 +5,15 @@
   height: 200px;
   border: 2px solid;
   background-color: #29394b;
-  padding: 5Ppx;
+  padding: 5px;
   color: #bdc2c5;
   margin: 0 12px 12px 0;
+}
+:host-context(.medium-movies) .label {
+  background-color: #53ace4;
+}
+:host-context(.medium-series) .label {
+  background-color: #45bf94;
 }
 h2 {
   font-size: 1.6em;
